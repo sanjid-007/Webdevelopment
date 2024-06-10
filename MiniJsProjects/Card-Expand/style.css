@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+  display: flex;
+  
+  width: 90vw;
+
+}
+.scene{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+  height: 80vh;
+  border-radius: 50px;
+  overflow: hidden;
+  flex: 0.5;
+  position: relative;
+  color: aliceblue;
+  margin: 5px;
+ 
+}
+.scene.active{
+ 
+ flex: 5;
+ max-width: 80%;
+   
+
+}
+.active h3{
+  
+    opacity: 1;
+ 
+ }
+h3{
+ position: absolute;
+
+  bottom: 20px;
+  left: 20px;
+ opacity: 0;
+ margin: 0;
+}
+
+
+
+
